@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Shiba Doge Gold(SDG) Coin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:type" content="website" />
+        <meta property="twitter:card" content="summary_large_image" />
+
+        <meta property="og:site_name" content="Shiba Doge Gold Coin" />
+        <meta property="og:title" content="Shiba Doge Gold Coin" />
+        <meta property="twitter:title" content="Shiba Doge Gold Coin" />
+
+
+        <meta
+            name="description"
+            content="Shiba Doge Gold is the ethereum project for the most valuable resource in the world. It's also a meme. That's all it'll ever be. Launched stealth with no presale, low taxes & LP burnt. Contract will be renounced. Shiba Doge Gold is here to bring back the Shiba Doge Golden era of crypto."
+        />
+        <meta
+            property="og:description"
+            content="Shiba Doge Gold is the ethereum project for the most valuable resource in the world. It's also a meme. That's all it'll ever be. Launched stealth with no presale, low taxes & LP burnt. Contract will be renounced. Shiba Doge Gold is here to bring back the Shiba Doge Golden era of crypto."
+        />
+        <meta
+            property="twitter:description"
+            content="Shiba Doge Gold is the ethereum project for the most valuable resource in the world. It's also a meme. That's all it'll ever be. Launched stealth with no presale, low taxes & LP burnt. Contract will be renounced. Shiba Doge Gold is here to bring back the Shiba Doge Golden era of crypto."
+        />
+
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+            integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+       
+
+        <link rel="shortcut icon" href="./x9e502a49g421.png" type="image/x-icon">
+
+       
+
+        <style type="text/css">
+            @font-face {
+                font-family: "DOS";
+                font-style: normal;
+                font-weight: normal;
+                src: url("fonts/Fixedsys500c.eot");
+                src: local("☺"), url("Fixedsys500c.woff") format("woff"), url("Fixedsys500c.ttf") format("truetype"),
+                    url("Fixedsys500c.svg") format("svg");
+            }
+
+            :root {
+                --bs-font-sans-serif: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+                --bs-nav-link-color: #000;
+                --bs-link-color: #000;
+                --bs-body-font-size: 1.25rem;
+            }
+
+            .offcanvas {
+                --bs-offcanvas-height: 60vh;
+            }
+
+            body {
+                padding-top: 20px;
+                padding-bottom: 40px;
+                background-color: silver;
+                color: black;
+            }
+
+            .nav {
+                background-color: #bbb;
+            }
+
+            .btn {
+                transition: none;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            @media (min-width: 576px) {
+                h1 {
+                    font-size: 72px;
+                }
+            }
+
+            .bg-gold {
+                background-color: silver;
+            }
+
+            .btn-buy {
+                line-height: 60px;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                border-radius: 0;
+                font-size: 40px;
+                padding: 14px 24px;
+                box-shadow: rgb(0, 0, 0) 10px 10px 0 0;
+                background-color: #555;
+            }
+
+            .btn-buy:hover {
+                color: #fff;
+                background: #555;
+            }
+
+            .nav-item.active a,
+            .nav-item.active,
+            .nav-link:hover {
+                background: #000;
+                color: #fff;
+            }
+
+            h3 {
+                color: #000;
+            }
+
+            h3 a {
+                color: #000;
+                text-decoration: none;
+            }
+
+            .strikethrough {
+                position: relative;
+            }
+
+            .strikethrough:after {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 50%;
+                right: 0;
+                border-top: 2px solid;
+                border-color: inherit;
+                transform: translateY(-50%);
+            }
+
+            small, .small {
+                font-size: 0.7em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center mb-3">
+                <div class="col-12 col-md-8 col-lg-7">
+                    <img src="./x9e502a49g421.png" style="width: 80px" class="d-block mx-auto" />
+                    <hr class="border border-white mb-0 mt-5 opacity-100 d-none d-lg-block" />
+
+                    <nav class="navbar navbar-expand-lg fixed-bottom d-lg-none bg-dark">
+                        <div class="container-fluid justify-content-around">
+                            <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvas-nav">
+                                <svg
+                                    class="svg-inline--fa fa-bars"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="bars"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    style="
+                                        box-sizing: content-box;
+                                        height: 1em;
+                                        overflow: visible;
+                                        vertical-align: -0.125em;
+                                    "
+                                >
+                                    <path
+                                        fill="#fff"
+                                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </nav>
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvas-nav">
+                        <div class="offcanvas-header bg-gold">
+                            <h3 class="offcanvas-title">MONKE</h3>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="d-flex justify-content-center offcanvas-body bg-gold">
+                            <div class="navbar justify-content-center pt-0" style="margin-top: -2px">
+                                <ul class="list-unstyled" style="font-size: 30px">
+                                    <li class="nav-item">
+                                        <a href="https://hodl.gold" class="nav-link p-0 px-2 rounded-0">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#about" class="nav-link p-0 px-2 rounded-0">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="contractlink"
+                                            target="_blank"
+                                            class="nav-link p-0 px-2 rounded-0"
+                                            >Contract</a
+                                        >
+                                    </li>
+                                   
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar justify-content-end pt-0 d-none d-lg-block" style="margin-top: -2px">
+                        <ul class="nav nav-pills justify-content-around">
+                            <li class="active nav-item">
+                                <a href="https://hodl.gold" class="nav-link p-0 px-2 rounded-0">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link p-0 px-2 rounded-0">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="contractlink"
+                                    target="_blank"
+                                    class="nav-link p-0 px-2 rounded-0"
+                                    >Contract</a
+                                >
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                    <h1 class="text-center my-3 py-3 text-uppercase">RETURN TO MONKE</h1>
+                    <div style="display: flex; justify-content: center;">
+                        <blockquote class="twitter-tweet">
+                            <p lang="en" dir="ltr">return to monke <a href="https://t.co/tZ165nWOtW">pic.twitter.com/tZ165nWOtW</a></p>&mdash;
+                            raj 🖤 (@rajgokal) <a href="https://twitter.com/rajgokal/status/1677442864249458688?ref_src=twsrc%5Etfw">July 7,
+                                2023</a>
+                        </blockquote>
+                    </div>
+                    <div class="text-center">
+                        <p>Total Supply: 100M</p>
+                        <p class="d-none d-md-block">Contract: <a href="contractlink" target="_blank">0x000000000000000000000</a></p>
+                        <p class="d-md-none" style="font-size: 14px">
+                            <a href="contractlink" target="_blank">0x000000000000000000000</a>
+                        </p>
+                        <a
+                            class="btn btn-lg btn-buy animate__infinite animate__animated animate__pulse"
+                            href="buylink"
+                            target="_blank"
+                            >&lt; Buy Token &gt;</a
+                        >
+
+                        <div class="row" style="margin: 50px 0 20px">
+                            <div class="col-12 col-xl-6">
+                                <div class="d-flex justify-content-between">
+                                    <a
+                                        href="twitterlink"
+                                        class="text-decoration-none mb-3"
+                                        target="_blank"
+                                    >
+                                        <img src="x_logo.png" style="width: 80px; height: 80px" />
+                                    </a>
+                                    <a href="tglink" class="text-decoration-none mb-3" target="_blank">
+                                        <img src="telegram_logo.svg" style="width: 80px; height: 80px" />
+                                    </a>
+                                    <a
+                                        href="chartlink"
+                                        class="text-decoration-none mb-3"
+                                        target="_blank"
+                                    >
+                                        <img src="dextools.svg" style="width: 80px; height: 80px" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <div class="d-flex justify-content-between">
+                                    <a
+                                        href="contractlink"
+                                        class="text-decoration-none mb-3"
+                                    >
+                                        <img src="https://solscan.io/favicon.png" style="width: 80px; height: 80px" />
+                                    </a>
+                                    <a
+                                        href="https://coinmarketcap.com/dexscan/ethereum/0x000000000000000000000/"
+                                        class="text-decoration-none mb-3"
+                                    >
+                                        <img src="cmc.png" style="width: 80px; height: 80px" />
+                                    </a>
+                                    <a
+                                        href="buylink"
+                                        class="text-decoration-none mb-3"
+                                    >
+                                        <img
+                                            src="https://s2.coinmarketcap.com/static/img/coins/128x128/8526.png"
+                                            style="width: 80px; height: 80px;"
+                                            class="rounded-circle"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                        
+                    </div>
+
+                    <hr class="mt-5 border border-white opacity-100" />
+                </div>
+            </div>
+
+           
+
+            <iframe
+                allow="fullscreen"
+                height="800px"
+                class="w-100"
+                src="https://birdeye.so/?chain=solana"
+            ></iframe>
+
+           
+        </div>
+
+        <style>
+            .pixelCon {
+                position: absolute;
+                width: 120%;
+                height: 120%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                overflow: hidden;
+            }
+
+            .pixel {
+                background: #fff;
+                width: 5%;
+                padding-top: 5%;
+                float: left;
+                opacity: 0;
+                animation: blink 5s infinite;
+            }
+
+            @keyframes blink {
+                0% {
+                    opacity: 0;
+                }
+                25% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 0.25;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+
+        <div class="sidePanel" style="position: fixed; top: 0; left: 0; bottom: 0; right: 0; z-index: -10000">
+            <div class="pixelCon">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+        </div>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CKC9FV1M65"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-CKC9FV1M65");
+        </script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+            integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script>
+            const clickHandler = function () {
+                bootstrap.Offcanvas.getOrCreateInstance("#offcanvas-nav").hide();
+
+                return true;
+            };
+
+            document.querySelectorAll("#offcanvas-nav .offcanvas-body li a").forEach((element) => {
+                element.addEventListener("click", clickHandler);
+            });
+
+            var pix = document.getElementsByClassName("pixel");
+
+            for (var i = 0; i < pix.length; i++) {
+                pix[i].style.animationDelay = Math.ceil(Math.random() * 5000) + "ms";
+            }
+        </script>
+    </body>
+</html>
